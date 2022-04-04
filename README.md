@@ -22,19 +22,23 @@ Along with nodejs npm gets downloaded globally in your computer. Run `npm -v` in
 
 ## Setup Instructions
 Once nodejs is installed on your computer run `node -v` to see the downloaded version and `npm -v` in the terminal (git bash)to see their downloaded version.
-Sometimes we'll get error while creating a react app. This may be the case of nodejs version. In that case, you need to downgrade the nodejs version. If you have nodejs version 17+, it's better to use version 16+. Click the link <a href = "https://heynode.com/tutorial/install-nodejs-locally-nvm/" target= "_blank"</a> to solve the problem.
+Sometimes we'll get error while creating a react app. This may be the case of nodejs version. In that case, you need to downgrade the nodejs version. If you have nodejs version 17+, it's better to use version 16+. Click the link <a href = "https://heynode.com/tutorial/install-nodejs-locally-nvm/" target= "_blank" ></a> to solve the problem.
 
 #### Example:  
 
 Clone down this repository. Run`git clone https://github.com/dhiant/marvel-movies.git` in the terminal.
 
+Installation:
+
+`npm install` 
+
 To Start Server:
 
-`npm start`  
+`npm start`  - now the react app gets rendered in browser 
 
 To Visit App:
 
-`localhost:3000/` 
+`localhost:3000/`  
 
 ## Learn More
 
