@@ -1,12 +1,13 @@
 import React from "react";
 
-const SearchBox = () => {
+const SearchBox = (props) => {
   return (
     <div className=" relative text-center flex justiy-center items-center bg-gray-900 w-72 mx-auto rounded-sm">
       <input
         type="text"
         placeholder="Search for movies"
         className="p-2 w-96 text-center bg-gray-900 rounded-md text-amber-400 focus:outline-amber-500 outline-none placeholder-amber-400"
+        onChange={props.movieSearch}
       />
       <svg
         xmlns="http://www.w3.org/2000/svg"
