@@ -188,55 +188,6 @@ const movies = [
     img: "./img/no_way_home.jpg",
     link: "https://ww3.d123movies.to/watch-movie-2/spider-man-no-way-home-2021_cw6m6vqnm/63byl9v-full-movie-free-online",
   },
-  // {
-  //   id: 28,
-  //   name: "DOCTOR STRANGE IN THE MULTIVERSE OF MADNESS",
-  //   year: 2022,
-  //   img: "./img/doctor_strange_multiverse_of_madness.jpg",
-  //   link: "https://www.imdb.com/title/tt9419884/?ref_=nv_sr_srsg_0",
-  // },
-  // {
-  //   id: 29,
-  //   name: "THOR: LOVE AND THUNDER",
-  //   year: 2022,
-  //   img: "./img/love_and_thunder.jpg",
-  //   link: "https://www.imdb.com/title/tt10648342/?ref_=nv_sr_srsg_0",
-  // },
-  // {
-  //   id: 30,
-  //   name: "BLACK PANTHER: WAKANDA FOREVER",
-  //   year: 2022,
-  //   img: "./img/wakanda_forever.jpg",
-  //   link: "https://www.imdb.com/title/tt9114286/?ref_=nv_sr_srsg_0",
-  // },
-  // {
-  //   id: 31,
-  //   name: "THE MARVELS",
-  //   year: 2023,
-  //   img: "./img/the_marvel.jpg",
-  //   link: "https://www.imdb.com/title/tt10676048/?ref_=fn_al_tt_1",
-  // },
-  // {
-  //   id: 32,
-  //   name: "GUARDIANS OF THE GALAXY VOL. 3",
-  //   year: 2023,
-  //   img: "./img/guardians_of_the_galaxy.jpg",
-  //   link: "https://www.imdb.com/title/tt2015381/?ref_=nv_sr_srsg_0",
-  // },
-  // {
-  //   id: 33,
-  //   name: "Ant-Man and the Wasp: Quantumania",
-  //   year: 2023,
-  //   img: "./img/guardians_of_the_galaxy.jpg",
-  //   link: "https://www.imdb.com/title/tt2015381/?ref_=nv_sr_srsg_0",
-  // },
-  // {
-  //   id: 34,
-  //   name: "THE LEGEND OF THE TEN RINGS",
-  //   year: 2021,
-  //   img: "./img/guardians_of_the_galaxy.jpg",
-  //   link: "https://www.imdb.com/title/tt2015381/?ref_=nv_sr_srsg_0",
-  // },
 ];
 
 export default movies;
