@@ -36,17 +36,10 @@ const upcomingMovies = [
   },
   {
     id: 6,
-    name: "Ant-Man and the Wasp: Quantumania",
+    name: "ANT-MAN AND THE WASP: QUANTUMANIA",
     year: 2023,
     img: "./img/ant_man_and_the_wasp_quanta.jpg",
     link: "https://www.imdb.com/title/tt10954600/?ref_=nv_sr_srsg_6",
-  },
-  {
-    id: 7,
-    name: "THE LEGEND OF THE TEN RINGS",
-    year: 2021,
-    img: "./img/guardians_of_the_galaxy.jpg",
-    link: "https://www.imdb.com/title/tt2015381/?ref_=nv_sr_srsg_0",
   },
 ];
 

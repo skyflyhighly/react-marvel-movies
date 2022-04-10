@@ -29,14 +29,14 @@ const movies = [
   },
   {
     id: 5,
-    name: "THE FIRST AVENGER",
+    name: "CAPTAIN AMERICA : THE FIRST AVENGER",
     year: 2011,
     img: "./img/captain_america.jpg",
     link: "https://ww3.d123movies.to/watch-movie-2/captain-america-the-first-avenger-2011_cwjnvamwe/jke00nl-full-movie-free-online",
   },
   {
     id: 6,
-    name: "THE AVENGERS",
+    name: "MARVEL'S THE AVENGERS",
     year: 2012,
     img: "./img/the_avengers.jpg",
     link: "https://ww3.d123movies.to/watch-movie-2/the-avengers-2012_cwwob6q89/w7qe0qa-full-movie-free-online",
@@ -57,7 +57,7 @@ const movies = [
   },
   {
     id: 9,
-    name: "THE WINTER SOLDIER",
+    name: "CAPTAIN AMERICA : THE WINTER SOLDIER",
     year: 2014,
     img: "./img/the_winter_soldier.jpg",
     link: "https://ww3.d123movies.to/watch-movie-2/captain-america-the-winter-soldier-2014_cwzqozeo8/z57k6jz-full-movie-free-online",
@@ -71,7 +71,7 @@ const movies = [
   },
   {
     id: 11,
-    name: "AGE OF ULTRON",
+    name: "AVENGERS : AGE OF ULTRON",
     year: 2015,
     img: "./img/age_of_ultron.jpg",
     link: "https://ww3.d123movies.to/watch-movie-2/avengers-age-of-ultron-2015_cwobl6m47/o7oe56e-full-movie-free-online",
@@ -85,7 +85,7 @@ const movies = [
   },
   {
     id: 13,
-    name: "CIVIL WAR",
+    name: "CAPTAIAN AMERICA : CIVIL WAR",
     year: 2016,
     img: "./img/civil_war.jpg",
     link: "https://ww3.d123movies.to/watch-movie-2/captain-america-civil-war-2016_cwbkoqzw6/bxe0exq-full-movie-free-online",
@@ -99,7 +99,7 @@ const movies = [
   },
   {
     id: 15,
-    name: "GUARDIANS OF THE GALAXY 2",
+    name: "GUARDIANS OF THE GALAXY VOL. 2",
     year: 2017,
     img: "./img/guardians_of_the_galaxy_2.jpg",
     link: "https://ww3.d123movies.to/watch-movie-2/guardians-of-the-galaxy-vol-2-2017_cwkozvo0j/k8e0dme-full-movie-free-online",
@@ -127,7 +127,7 @@ const movies = [
   },
   {
     id: 19,
-    name: "INFINITY WAR",
+    name: "AVENGERS INFINITY WAR",
     year: 2018,
     img: "./img/inifinity_war.jpg",
     link: "https://ww3.d123movies.to/watch-movie-2/avengers-infinity-war-2018_cwjnv5lxd/jke0one-full-movie-free-online",
@@ -155,7 +155,7 @@ const movies = [
   },
   {
     id: 23,
-    name: "FAR FROM HOME",
+    name: "SPIDER-MAN FAR FROM HOME",
     year: 2019,
     img: "./img/far_from_home.jpg",
     link: "https://ww3.d123movies.to/watch-movie-2/spider-man-far-from-home-2019_cwqqyx48e/q487bk9-full-movie-free-online",
@@ -169,7 +169,7 @@ const movies = [
   },
   {
     id: 25,
-    name: "THE LEGEND OF THE TEN RINGS",
+    name: "SHANG-CHI AND THE LEGEND OF THE TEN RINGS",
     year: 2021,
     img: "./img/legend_of_the_ten_rings.jpg",
     link: "https://ww3.d123movies.to/watch-movie-2/shang-chi-and-the-legend-of-the-ten-rings-2021_cwm0l9vqz/m86obw4-full-movie-free-online",
@@ -183,7 +183,7 @@ const movies = [
   },
   {
     id: 27,
-    name: "NO WAY HOME",
+    name: "SPIDER-MAN NO WAY HOME",
     year: 2021,
     img: "./img/no_way_home.jpg",
     link: "https://ww3.d123movies.to/watch-movie-2/spider-man-no-way-home-2021_cw6m6vqnm/63byl9v-full-movie-free-online",
