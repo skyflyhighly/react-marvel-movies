@@ -1,9 +1,8 @@
 import React from "react";
-import SearchBox from "./SearchBox";
-import Card from "./Card";
-import movies from "./moviesname";
-import upcomingMovies from "./upcomingmovies";
-
+import SearchBox from "./components/SearchBox";
+import Card from "./components/Card";
+import movies from "./data/moviesname";
+import upcomingMovies from "./data/upcomingmovies";
 // const API_URL = `http://www.omdbapi.com?apikey=71122cac`;
 
 class App extends React.Component {
