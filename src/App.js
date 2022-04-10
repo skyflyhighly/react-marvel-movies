@@ -2,7 +2,7 @@ import React from "react";
 import SearchBox from "./components/SearchBox";
 import Card from "./components/Card";
 import movies from "./data/moviesname";
-import upcomingMovies from "./data/upcomingmovies";
+import upcomingMovies from "./data/upcomingmovies"
 
 // const API_URL = `http://www.omdbapi.com?apikey=71122cac`;
 
