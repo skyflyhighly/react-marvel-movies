@@ -29,14 +29,30 @@ code {
 }
 
 .title {
-    font-size: 3rem;
-    letter-spacing: 0.9px;
-    background: linear-gradient(
-      90deg,
-      rgba(249, 211, 180, 1) 0%,
-      rgba(249, 211, 180, 0) 100%
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  letter-spacing: 0.9px;
+  background: linear-gradient(
+    90deg,
+    rgba(249, 211, 180, 1) 0%,
+    rgba(249, 211, 180, 0) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes marquee {
+  0% {
+    left: 0;
   }
+  100% {
+    left: -100%;
+  }
+}
+
+.animate {
+  /* width: 200%; */
+  animation: marquee 30s linear infinite;
+  top: 50%;
+  transform: translate(0, -50%);
+}

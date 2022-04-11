@@ -2,9 +2,9 @@ import React from "react";
 import SearchBox from "./components/SearchBox";
 import Card from "./components/Card";
 import movies from "./data/moviesname";
-import upcomingMovies from "./data/upcomingmovies"
-
-// const API_URL = `http://www.omdbapi.com?apikey=71122cac`;
+import upcomingMovies from "./data/upcomingmovies";
+import tvseries from "./data/tvseries";
+import MoviesList from "./components/MoviesList";
 
 class App extends React.Component {
   constructor(props) {
@@ -13,6 +13,7 @@ class App extends React.Component {
       movies: movies,
       searchfield: "",
       upcoming: upcomingMovies,
+      tvseries: tvseries,
     };
   }
   movieSearch = (event) => {
@@ -21,48 +22,64 @@ class App extends React.Component {
     });
   };
   render() {
-    const { movies, searchfield, upcoming } = this.state;
-    const filterMovie = movies.filter((movie) => {
-      return movie.name.toLowerCase().includes(searchfield.toLowerCase());
-    });
-    const filterUpcomingMovie = upcoming.filter((movie) => {
-      return movie.name.toLowerCase().includes(searchfield.toLowerCase());
-    });
+    const { movies, searchfield, upcoming, tvseries } = this.state;
+    const filterArray = (arr) => {
+      return arr.filter((item) => {
+        return item.name.toLowerCase().includes(searchfield.toLowerCase());
+      });
+    };
+    let allMovies = [
+      {
+        movieList: filterArray(movies).map((movie) => (
+          <Card
+            key={movie.id}
+            moviesName={movie.name}
+            year={movie.year}
+            img={movie.img}
+            link={movie.link}
+          />
+        )),
+        id: 1,
+        title: "Movies",
+      },
+      {
+        movieList: filterArray(tvseries).map((movie) => (
+          <Card
+            key={movie.id}
+            moviesName={movie.name}
+            year={movie.year}
+            img={movie.img}
+            link={movie.link}
+          />
+        )),
+        id: 2,
+        title: "Television Series",
+      },
+      {
+        movieList: filterArray(upcoming).map((movie) => (
+          <Card
+            key={movie.id}
+            moviesName={movie.name}
+            year={movie.year}
+            img={movie.img}
+            link={movie.link}
+          />
+        )),
+        id: 3,
+        title: "Upcoming Series",
+      },
+    ];
     return (
       <div>
         <div>
-          <h1 className="text-5xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-500 via-yellow-600 to-gray-900 p-12 pb-6">
+          <h1 className="text-5xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-yellow-600 to-gray-900 p-12 pb-6">
             MarvelMovies
           </h1>
         </div>
         <SearchBox movieSearch={this.movieSearch} />
-        <div className="flex justify-center gap-5 flex-wrap pt-7">
-          {filterMovie.map((movie) => (
-            <Card
-              key={movie.id}
-              moviesName={movie.name}
-              year={movie.year}
-              img={movie.img}
-              link={movie.link}
-            />
-          ))}
-        </div>
-        <div>
-          <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-500 via-yellow-600 to-gray-900 p-3 pb-0">
-            Upcoming MarvelMovies...
-          </h1>
-        </div>
-        <div className="flex justify-center gap-5 flex-wrap pt-7">
-          {filterUpcomingMovie.map((movie) => (
-            <Card
-              key={movie.id}
-              moviesName={movie.name}
-              year={movie.year}
-              img={movie.img}
-              link={movie.link}
-            />
-          ))}
-        </div>
+        {allMovies.map((movies) => (
+          <MoviesList key={movies.id} movies={movies} />
+        ))}
       </div>
     );
   }
