@@ -10,7 +10,7 @@ This Project is a Simple ReactJS Project which demonstrates the following
 </ul>
 
 ## Live Application URL
-https://dhiant.github.io/marvel-movies/
+https://marvelsushant.netlify.app/
 
 ## Prerequisties
 
