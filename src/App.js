@@ -77,6 +77,14 @@ class App extends React.Component {
           </h1>
         </div>
         <SearchBox movieSearch={this.movieSearch} />
+        <div className="my-8 p-8 bg-amber-500 text-white text-center">
+          Note : Use any adblockers or
+          <a href="https://brave.com/" className="underline font-bold">
+            {" "}
+            Brave Browser
+          </a>{" "}
+          for best experience.
+        </div>
         {allMovies.map((movies) =>
           movies.movieList.length > 0 ? (
             <MoviesList key={movies.id} movies={movies} />
