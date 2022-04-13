@@ -21,7 +21,7 @@ class App extends React.Component {
       searchfield: event.target.value,
     });
   };
-  render() {
+  render() {                            
     const { movies, searchfield, upcoming, tvseries } = this.state;
     const filterArray = (arr) => {
       return arr.filter((item) => {
