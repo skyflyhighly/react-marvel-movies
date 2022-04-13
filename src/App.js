@@ -79,7 +79,12 @@ class App extends React.Component {
         <SearchBox movieSearch={this.movieSearch} />
         <div className="my-8 p-8 bg-amber-500 text-white text-center">
           Note : Use any adblockers or
-          <a href="https://brave.com/" className="underline font-bold">
+          <a
+            href="https://brave.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="underline font-bold"
+          >
             {" "}
             Brave Browser
           </a>{" "}
