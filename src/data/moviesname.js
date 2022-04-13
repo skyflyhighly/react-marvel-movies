@@ -46,14 +46,14 @@ const movies = [
     name: "IRON MAN 3",
     year: 2013,
     img: "./img/iron_man_3.jpg",
-    link: "https://ww3.d123movies.to/watch-movie-2/iron-man-3-2013_cwm0l4zl4/m86e7ex-full-movie-free-online",
+    link: "https://www.2embed.ru/embed/imdb/movie?id=tt1300854",
   },
   {
     id: 8,
     name: "THOR: THE DARK WORLD",
     year: 2013,
     img: "./img/thor_the_dark_world.jpg",
-    link: "https://ww3.d123movies.to/watch-movie-2/thor-the-dark-world-2013_cwwob6k7k/w7qeld6-full-movie-free-online",
+    link: "https://fmovies.co/film/thor-the-dark-world-1843?play=1",
   },
   {
     id: 9,
