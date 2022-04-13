@@ -21,7 +21,7 @@ class App extends React.Component {
       searchfield: event.target.value,
     });
   };
-  render() {                            
+  render() {
     const { movies, searchfield, upcoming, tvseries } = this.state;
     const filterArray = (arr) => {
       return arr.filter((item) => {
@@ -77,9 +77,15 @@ class App extends React.Component {
           </h1>
         </div>
         <SearchBox movieSearch={this.movieSearch} />
-        {allMovies.map((movies) => (
-          <MoviesList key={movies.id} movies={movies} />
-        ))}
+        {allMovies.map((movies) =>
+          movies.movieList.length > 0 ? (
+            <MoviesList key={movies.id} movies={movies} />
+          ) : (
+            <h1 className="text-center text-2xl mt-8 text-amber-500">
+              No {movies.title}
+            </h1>
+          )
+        )}
       </div>
     );
   }
