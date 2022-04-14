@@ -72,7 +72,7 @@ class App extends React.Component {
     return (
       <div>
         <div>
-          <h1 className="text-5xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-yellow-600 to-gray-900 p-12 pb-6">
+          <h1 className="text-xl md:text-5xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-yellow-600 to-gray-900 p-4 md:p-12 pb-6">
             MarvelMovies
           </h1>
         </div>

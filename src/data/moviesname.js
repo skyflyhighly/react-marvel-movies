@@ -106,7 +106,7 @@ const movies = [
   },
   {
     id: 16,
-    name: "SPIDERMAN:HOMECOMING",
+    name: "SPIDER-MAN:HOMECOMING",
     year: 2017,
     img: "./img/homecoming.jpg",
     link: "https://www.2embed.ru/embed/imdb/movie?id=tt2250912",

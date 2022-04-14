@@ -6,7 +6,7 @@ const SearchBox = (props) => {
       <input
         type="text"
         placeholder="Search for movies"
-        className="p-2 w-96 text-center bg-gray-900 rounded-md text-amber-400 focus:outline-amber-500 outline-none placeholder-amber-400"
+        className="p-2 w-full md:w-96 text-center bg-gray-900 rounded-md text-amber-400 focus:outline-amber-500 outline-none placeholder-amber-400"
         onChange={props.movieSearch}
       />
       <svg
